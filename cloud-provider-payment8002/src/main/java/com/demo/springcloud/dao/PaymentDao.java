@@ -1,17 +1,20 @@
-package com.eiletxie.springcloud.dao;
+package com.demo.springcloud.dao;
 
 import com.demo.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 /**
- * @Author EiletXie
- * @Since 2020/3/9 10:58
+ * @Author: WangYuhao
+ * @Date:2020/5/31 22:23
  */
 @Mapper
 public interface PaymentDao {
 
-    public int create(Payment payment);
+    public int creat(Payment payment);
 
     public Payment getPaymentById(@Param("id") Long id);
+
+
 }
