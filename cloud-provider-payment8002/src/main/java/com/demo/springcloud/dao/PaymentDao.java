@@ -3,7 +3,6 @@ package com.demo.springcloud.dao;
 import com.demo.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
 /**
  * @Author: WangYuhao
